@@ -1,0 +1,67 @@
+.containerDetailProduct{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 410px;
+    margin: 40px 20px 40px 20px;
+    padding: 2%;
+    border: 0 solid #190d23;
+    box-shadow: 0 0 5px 0 #190d23;
+    border-radius: 2%;
+}
+.imgDetaildiv{
+    width: 400px;
+    padding: 0;
+    display: flex;
+}
+.imgDetail{
+    width: 325px;
+}
+.cuerpoDetail{
+    width: 400px;
+    display: inline-block;
+    padding: 0;
+}
+.button2{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    position: relative;
+    left: 260px;
+    border-radius: 8px;
+    background-color: #190d23;
+}
+.button2:hover{
+    transition: background-color 0.3s ease-out;
+    background-color: rgb(70, 50, 87);
+    color: white;
+}
+.lorem{
+    font-size: 12px;
+}
+.cuotas{
+    font-size: 14px;
+    color: rgb(30, 30, 193);
+}
+@media (max-width: 800px) { 
+    .containerDetailProduct{
+        flex-direction: column;
+        height: 840px;
+        padding: auto;
+    }
+    .imgDetaildiv{
+        width: 500px;
+    }
+    .cuerpoDetail{
+        width: 500px;
+        padding: 2% 0 0 0;
+        margin: 0 auto 0 auto;
+    }
+    .imgDetail{
+        width: 425px;
+        margin: 0 auto 0 auto;
+    }
+    .button2{
+        left: 320px;
+    }
+}

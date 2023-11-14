@@ -1,0 +1,28 @@
+.espaciocard{
+    width: 300px;
+    margin: 75px 20px 50px 20px;
+    padding: 2%;
+    border: 0 solid #190d23;
+    box-shadow: 0 0 5px 0 #190d23;
+    border-radius: 2%;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    padding: 3%;
+    position: relative;
+    left: 11rem;
+    border-radius: 8px;
+    background-color: #190d23;
+}
+.button:hover{
+    transition: background-color 0.3s ease-out;
+    background-color: rgb(70, 50, 87);
+    color: white;
+}
+@media (max-width: 800px){
+    .espaciocard{
+        width: 400px;
+        margin: 3% 2% 3% 20%
+    }
+}
